@@ -3,7 +3,7 @@ os: linux
 
 hooks:
   ApplicationStop:
-    - location: scripts/stop_cont.sh
+    - location: scripts/stopcont.sh
       timeout: 300
       runas: root
   AfterInstall:
