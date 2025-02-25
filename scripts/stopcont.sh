@@ -8,5 +8,5 @@ if [ -z "$containers" ]; then
     echo "No containers to remove."
 else
     # Remove all containers
-    sudo docker rm $containers
+    sudo docker rm -f $containers
 fi
